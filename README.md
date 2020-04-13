@@ -6,9 +6,14 @@ Converting the ingredient list to a simple bag-of-words matrix, which is essenti
 ### Can we use Word Embeddings to improve those results?
 
 In this work, we use Gensim's Word2Vec implementation to convert a given list of ingredients to a fixed-length vector representation.
-A cleaned recipe list and context vector representation gives classification accuracy of only 65%, which is lower than the baseline 78%.
+Let's see how those vectors look:
+![snap](https://github.com/mohannishant6/Recipe-Ingredients-as-Word-Embeddings/blob/master/images/30300(15).jpg)
 
-So, is Word-Embedding bad?
+A cleaned recipe list and context vector representation gives classification accuracy of only 65%, which is lower than the baseline 78%.
+Let's look in detail at some cuisines and their top ingredients, shall we?
+![snap](https://github.com/mohannishant6/Recipe-Ingredients-as-Word-Embeddings/blob/master/images/sankey.jpg)
+
+### So, since the predition accuracy fell from 78% to 65%, is Word-Embedding bad?
 Probably.
 Probably Not.
 There are caveats. 
