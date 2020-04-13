@@ -1,4 +1,4 @@
-# Recipes-Contexts-as Word Embeddings
+# Embedding Contexts into Recipe Ingredients
 
 Tree-based methods and ANNs have successfully been applied to predict the type of cuisine using a list of ingredients. 
 Converting the ingredient list to a simple bag-of-words matrix, which is essentially a one-hot-encoded matrix, gives a prediction of accuracy of 78% on the Yummly recipes dataset.
